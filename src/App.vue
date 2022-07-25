@@ -1,5 +1,6 @@
 <template>
-  <Counter/>
+  <Counter titulo="entrada" />
+  <Counter :start="15"/>
 </template>
 
 <script>
